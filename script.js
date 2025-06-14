@@ -134,7 +134,8 @@ class Canvas{
 }
 
 // const face_id = 20
-const seed = 1042
+const numberInput = document.getElementById("numberInput");
+let seed = parseFloat(numberInput.value);
 // const seed = Math.floor(Math.random()*1000)
 const rand = mulberry32(seed) 
 
